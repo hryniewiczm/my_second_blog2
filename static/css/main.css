@@ -3,8 +3,9 @@ body {
 }
 
 h1,
-a {
-    color: #FCA205;
+a,
+a:hover {
+    color: #000000;
     font-family: 'Lobster', cursive;
 }
 
@@ -28,7 +29,8 @@ h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
 
-.date {
+.date,
+.date a {
     float: right;
     color: #828282;
 }
@@ -56,3 +58,8 @@ h1, h2, h3, h4 {
 .post h1 a, .post h1 a:visited {
     color: #000000;
 }
+
+.comment {
+    margin: 20px 0px 20px 20px;
+}
+
